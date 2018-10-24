@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# bin/detect <build-dir>
-
-echo "Puppeteer Release"
+# bin/release <build-dir>
 
 cat << EOF
 default_process_types:
