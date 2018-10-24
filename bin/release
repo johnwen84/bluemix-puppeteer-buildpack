@@ -2,4 +2,8 @@
 # bin/detect <build-dir>
 
 echo "Puppeteer Release"
-exit 0
+
+cat << EOF
+default_process_types:
+  web: npm start
+EOF
