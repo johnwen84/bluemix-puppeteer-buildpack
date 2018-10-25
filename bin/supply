@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# bin/supply <build-dir>
+
+echo "Puppeteer Supply"
+exit 0
