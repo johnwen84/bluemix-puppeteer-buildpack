@@ -3,5 +3,5 @@
 
 cat << EOF
 default_process_types:
-  web: npm install
+  web: echo Puppeteer buildpack installation was finished
 EOF
