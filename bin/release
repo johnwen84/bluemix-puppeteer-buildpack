@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-cat << EOF
-default_process_types:
-  web: npm start
-EOF
+echo 'default_process_types:'
+  echo '  web: npm start'
